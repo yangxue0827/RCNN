@@ -1,5 +1,5 @@
 # RCNN 
-(Rich feature hierarchies for accurate object detection and semantic segmentation)
+Rich feature hierarchies for accurate object detection and semantic segmentation
 # 工程内容
 这个程序是基于tensorflow的tflearn库实现部分RCNN功能。
 
