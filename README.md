@@ -1,4 +1,4 @@
-# RCNN
+# RCNN (Rich feature hierarchies for accurate object detection and semantic segmentation)
 # 工程内容
 这个程序是基于tensorflow的tflearn库实现部分RCNN功能。
 
@@ -31,7 +31,7 @@ windows10 + python3.5 + tensorflow1.2 + tflearn + cv2 + scikit-learn
 4、由于数据集合论文采用不一样，但是微调和训练SVM时采用的IOU阈值一样，有待调参。
 
 # 参考
-1、论文：Rich feature hierarchies for accurate object detection and semantic segmentation（https://www.computer.org/csdl/proceedings/cvpr/2014/5118/00/5118a580-abs.html）
+1、论文参考：https://www.computer.org/csdl/proceedings/cvpr/2014/5118/00/5118a580-abs.html
 2、博客参考：http://blog.csdn.net/u011534057/article/details/51218218和http://blog.csdn.net/u011534057/article/details/51218250
 3、代码参考：http://www.cnblogs.com/edwardbi/p/5647522.html和https://github.com/edwardbi/DeepLearningModels/tree/master/RCNN
 
