@@ -22,8 +22,10 @@ windows10 + python3.5 + tensorflow1.2 + tflearn + cv2 + scikit-learn
 # 文件说明
 1、train_list.txt---预训练数据，数据在17flowers文件夹中      
 2、fine_tune_list.txt---微调数据2flowers文件夹中   
-3、1.png---直接用选择性搜索的区域划分   
-4、2.png---通过RCNN后的区域划分
+3、1.png---直接用选择性搜索的区域划分        
+   ![selectivesearch_1](1.png)
+4、test/2.png---通过RCNN后的区域划分     
+   ![RCNN_1](2.png)
 
 # 程序问题
 1、由于数据集小的原因，在微调时候并没有像论文一样按一个bitch32个正样本，128个负样本输入，感觉正样本过少；   
