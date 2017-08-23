@@ -36,7 +36,7 @@ windows10 + python3.5 + tensorflow1.2 + tflearn + cv2 + scikit-learn
 # 参考
 1、论文参考：https://www.computer.org/csdl/proceedings/cvpr/2014/5118/00/5118a580-abs.html       
 2、代码参考：http://www.cnblogs.com/edwardbi/p/5647522.html         
-            https://github.com/edwardbi/DeepLearningModels/tree/master/RCNN            
+            https://github.com/edwardbi/DeepLearningModels/tree/master/RCNN                              
 3、博客参考：http://blog.csdn.net/u011534057/article/details/51218218          
             http://blog.csdn.net/u011534057/article/details/51218250 
 
