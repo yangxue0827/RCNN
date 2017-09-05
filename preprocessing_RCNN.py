@@ -58,7 +58,8 @@ def clip_pic(img, rect):
     h = rect[3]
     x_1 = x + w
     y_1 = y + h
-    return img[x:x_1, y:y_1, :], [x, y, x_1, y_1, w, h]
+    # return img[x:x_1, y:y_1, :], [x, y, x_1, y_1, w, h]   
+    return img[y:y_1, x:x_1, :], [x, y, x_1, y_1, w, h]
 
 
 # Read in data and save data for Alexnet
